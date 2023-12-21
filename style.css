@@ -1,0 +1,183 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+header{
+    background-color: #212121;
+}
+#phoneIcon{
+    filter: invert(100%);
+    height: 30px;
+  margin-right: 10px;
+}
+.phoneButton{
+    display: flex;
+    align-items: center;
+}
+*{
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: block; 
+    width: 100px;
+    height: 40px;
+    background-image: url("Bublik.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.headerLeft{
+display: flex;
+align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.headerLeft li{
+position: relative;                                                     
+}
+.headerLeft li > a{
+    background-color: #212121;
+    z-index: 15;
+    position: relative;
+}
+.headerLeft li:hover nav{
+transform: translateY(0%);
+
+}
+header a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 40px;
+  display: block;                                                                                           
+}
+header a:not(.logo):hover{
+background-color: rgb(56, 56, 56);
+}
+header nav{
+position: absolute;
+background-color: #212121;
+top: 40px;
+left: 0;
+transform: translateY(-100%);
+transition: 3s;
+}
+.headerRight{
+    display: flex;
+}
+.card{
+    background-image: url("Pelmeni-02-scaled.webp");
+    border-radius: 20px;
+    width: 27%;
+    display: inline-block;
+    background-size: cover;
+    padding: 10px 10px;
+    border: 5px solid #000000;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+    .sliderContainer{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        justify-content: center;
+    }
+.slider{
+    white-space: nowrap;
+    font-size: 0;
+    width: 100%;
+    transition: 3s;
+}
+.slide{
+    display: inline-block;
+    width: 100%;
+    font-family: 'Exo 2', sans-serif;
+    background-size: cover;
+    white-space: normal;
+    padding: 100px 0px;
+}
+.slide1{
+    background-image: url("istockphoto-1430945266-640x640.jpg");
+}
+.slide2{
+    background-image: url("priroda-adygei.jpg");
+}
+.slide3{
+    background-image: url("7.jpg");
+}
+.slide h1{
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0 0 10px #00000088;
+}
+.slide p{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.457);
+    backdrop-filter: blur(10px);
+    padding: 10px 10px;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.slide a{
+    font-size: 16px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 5px solid black;
+    color: #000000;
+    padding: 5px 5px;
+    display: inline-block;
+}
+.slide a:hover{
+    transform: scale(1.05);
+}
+.arrow{
+    background-image: url("Arrow.svg");
+    height: 40px;
+    width: 100px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#sliderLeft{
+    transform: scaleX(-1);
+    background-color: #ffffff;
+    border: 5px solid black;
+border-radius: 100px;
+padding: 5x;
+}
+#sliderRight{
+background-color: #ffffff;
+border: 5px solid black;
+border-radius: 100px;
+}
+#comments{
+    width: 220px;
+    height: 120px;
+    border-radius: 10px;
+background-color: rgb(255, 255, 255);
+border: 5px solid black;
+padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+#Speculation{
+    display: inline-block;
+margin-top: 20px;
+}
